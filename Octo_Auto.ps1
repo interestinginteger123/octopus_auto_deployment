@@ -5,7 +5,7 @@ param(
 [string] $liveEnvironment= ''
 ) 
 
-Add-Type -Path '~\desktop\Octopus.Client.dll' 
+Add-Type -Path '~\Octopus.Client.dll' 
 Import-Module Octoposh
 
 $Header =  @{ "X-Octopus-ApiKey" = $apiKey }
